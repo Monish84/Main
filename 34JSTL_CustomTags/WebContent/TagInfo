@@ -1,0 +1,6 @@
+JSTL Tag Information:-
+
+<c:out> tag 	-	similar to JSP expression tag
+<c:import> 		-	similar to jsp 'include'
+<c:set> 		-	similar to jsp:setProperty action tag
+

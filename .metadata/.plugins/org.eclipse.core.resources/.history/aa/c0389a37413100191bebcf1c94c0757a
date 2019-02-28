@@ -1,0 +1,44 @@
+package arrays;
+
+import java.util.Scanner;
+
+class Array_Ex{
+	 int multi[][] = new int[2][2];
+		Scanner scan = new Scanner(System.in);
+		
+		void insert() {
+			
+			System.out.println("Insert Data into Two-Dimensional Array");
+			
+			for(int i=0; i<2; i++) {
+				
+				for(int j=0; j<2; j++) {
+					
+					multi[i][j] = scan.nextInt();
+				}
+			}
+		}
+		
+		void display() {
+			
+			System.out.println("\nThe Two-Dimensional Array");
+			
+			for(int i=0; i<2; i++) {
+				
+				for(int j=0; j<2; j++) {
+					
+					System.out.print(multi[i][j] + "\t");
+				}
+				System.out.println();
+			}
+		}
+	}
+public class Array_Ex4 {
+	public static void main(String args[]) {
+		
+		Array_Ex obj = new Array_Ex();
+		
+		obj.insert();
+		obj.display();
+	}
+}

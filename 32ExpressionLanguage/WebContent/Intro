@@ -1,0 +1,18 @@
+Expression Language:-
+
+	-Introduced in JSP 2.0
+	-Reducing the more JSP Scripts
+	
+Syntax:- 
+
+	${param . name}
+		|		|
+	Implecit 	parameter name
+	object
+	
+eg:-
+
+	${sessionScope . userName}
+		|				|
+	Implecit		attribute name
+	object

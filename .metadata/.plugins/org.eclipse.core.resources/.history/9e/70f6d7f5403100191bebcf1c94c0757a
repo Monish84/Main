@@ -1,0 +1,21 @@
+package arrays;
+
+public class Array_Ex3 {
+public static void main(String args[]) {
+		
+		Array_Ex3 obj[] = new Array_Ex3[2];
+		
+		obj[0] = new Array_Ex3();
+		obj[1] = new Array_Ex3();
+		
+		obj[0].setData(10, 20);
+		obj[1].setData(100, 200);
+		
+		System.out.println("The First Array Object's value");
+		obj[0].showData();
+		
+		System.out.println("\nThe Second Array Object's value");
+		obj[1].showData();
+	}
+
+}

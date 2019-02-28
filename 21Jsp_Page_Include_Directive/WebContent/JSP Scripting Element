@@ -1,0 +1,24 @@
+
+  Scripting Element		       Example
+
+	Comment					<%-- comment --%>
+	
+	Directive				<%@ directive %>
+	
+	Declaration				<%! declarations %>
+	
+	Scriptlet				<% scriplets %>
+	
+	Expression				<%= expression %>
+	
+<%@ directive %>
+	-	page translation
+	-	Three types:
+		
+		Directive:			Description:
+		
+		<%@ page ... %>		defines load properties such as language, session, errorPage etc.
+							<%@ page import="java.util.*" %>
+							
+		<%@ include ... %>	defines file to be included.
+		<%@ taglib ... %>	declares tag library used in the page

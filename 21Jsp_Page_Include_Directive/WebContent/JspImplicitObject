@@ -1,0 +1,12 @@
+implicit objects    Relative classes or interfaces
+				
+
+request          	- HttpServletRequest 
+response		 	- HttpServletResponse
+out 			 	- JspWriter
+session			 	- HttpSession
+application		 	- ServletContext
+config			 	- ServletConfig
+pageContext		 	- PageContext
+page 			 	- this
+exception		 	- Throwable
